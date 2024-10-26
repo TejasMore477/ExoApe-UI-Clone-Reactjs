@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
+import LandingPage from './components/landingpage/LandingPage'
 
 function App() {
   return (
-    <div className='bg-zinc-900 w-full h-screen'>
+    <div className='w-full'>
       <Navbar/>
+      <LandingPage/>
     </div>
   )
 }
