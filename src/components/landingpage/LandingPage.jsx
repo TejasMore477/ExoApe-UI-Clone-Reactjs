@@ -23,17 +23,17 @@ function LandingPage() {
         <LandingHeaderText headerText={headerText}/>
         <TextBottom paragraph={text2}/>
         
-        <div className='flex items-start justify-between mt-32'>
+        <div className='sm:flex items-start justify-between sm:mt-32 mt-10'>
         <a href="#" className='border-b-2 border-zinc-100 pb-2 inline-block mt-10 sm:text-xl text-[0.96rem] font-medium '>The Studio</a>
-        <div className='flex items-start  justify-between w-1/4'>
-        <div>
+        <div className=' hidden sm:flex items-end justify-between w-1/4 '>
+        <div className='flex flex-col items-start gap-5'>
         {["Work", "Studio","News", "Contact"].map((link, index)=>(
-          <a key={index} href='#' className='block font-medium text-lg my-2'>{link}</a>
+          <a key={index} href='#' className='block font-medium text-lg'>{link}</a>
         ))}
         </div>
-        <div>
-          <p className='font-medium text-lg my-2'>hello@exoape.com</p>
-          <p className='font-medium text-lg my-2'>+31772086200</p>
+        <div className='flex flex-col items-end gap-5'>
+          <p className='font-medium text-lg'>hello@exoape.com</p>
+          <p className='font-medium text-lg'>+31772086200</p>
         </div>
         </div>
         </div>
