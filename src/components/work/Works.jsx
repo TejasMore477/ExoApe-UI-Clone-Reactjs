@@ -19,7 +19,7 @@ function Works() {
     <div className='sm:flex items-start justify-center flex-wrap gap-20 mt-20'>
         {data.map((item, index)=>(
             <div className={`w-full sm:w-fit mt-10 sm:mt-0  ${index%2 != 0 && "sm:pt-[20rem]"}`} key={index}>
-                    <div className={`sm:w-[38rem] w-full h-96 sm:h-[45rem] bg-red-400  ${index%2 != 0 && "bg-red-300 sm:h-[35rem] sm:w-[25rem]"} mt-10 sm:mt-0 relative overflow-hidden`}>
+                    <div className={`sm:w-[38rem] w-full h-96 sm:h-[45rem] ${index%2 != 0 && " sm:h-[35rem] sm:w-[25rem]"} mt-10 sm:mt-0 relative overflow-hidden`}>
                         <img className='hidden sm:block w-full h-full object-cover' src={item.image} alt={item.heading} />
                         <video muted loop autoPlay className='absolute sm:hidden top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  scale-[1]' src={item.video}></video>
                     </div>

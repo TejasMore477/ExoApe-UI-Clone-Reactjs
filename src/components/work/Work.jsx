@@ -4,8 +4,6 @@ import Works from './Works'
 function Work() {
   return (
     <div className='px-5 sm:px-20 py-10 sm:py-20 w-full overflow-x-hidden'>
-        {/* text-6xl */}
-        {/* sm:text-[15rem] */}
         <h1 className='sm:pb-5 py-5  font-normal sm:text-[13rem] sm:font-semibold text-7xl  tracking-tighter leading-none'>Work</h1>
         <p className='tracking-tight '>Highlights of cases that we passionately built with forward-thinking clients and friends over the years.</p>
         <Works/>
