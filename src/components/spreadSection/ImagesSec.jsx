@@ -10,7 +10,7 @@ import SpreadNews from './SpreadNews'
 function ImagesSec() {
   return (
     <div>
-        <div className='px-5 sm:px-20 h-[60vh] sm:h-[160vh] py-10 sm:py-44 w-full flex overflow-x-hidden items-center justify-center'>
+        <div className='px-5 sm:px-20 h-[60vh] sm:h-[150vh] py-10 sm:py-44 w-full flex overflow-x-hidden items-center justify-center'>
         <div className='w-[45%] h-[15rem] sm:h-[85vh] sm:w-[30%] relative'>
             <div className='absolute w-20 h-32 sm:h-[45vh] sm:w-[60%] -right-14 sm:-right-36 -top-10 sm:-top-[25%]'>
                 <img className='w-full h-full object-cover' src={image3} alt="" />
