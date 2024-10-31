@@ -16,8 +16,10 @@ function App() {
       <LandingPage/>
       <Work/>
       <PlayReel/>
-      <ImagesSec/>
-      <Footer/>
+      <div className='h-fit w-full overflow-hidden py-[10vh]'>
+        <ImagesSec/>
+      </div>
+        <Footer/>
     </div>
   )
 }

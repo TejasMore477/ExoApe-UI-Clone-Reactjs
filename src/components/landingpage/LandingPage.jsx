@@ -12,11 +12,14 @@ function LandingPage() {
   ]
 
   const headerText = ["Digital", "Design", "Experience"]
-  const text2 = 'We help experience-driven companies thrive by making their audience feel the refined intricacies of their brand and product in the digital space. Unforgettable journeys start with a click.'
+  const text2 = ['We help experience-driven companies','thrive by making their audience feel the','refined intricacies of their brand and product','in the digital space. Unforgettable journeys start with a click.']
   return (
     <div className='w-full h-[150vh] sm:h-[250vh] relative'>
-        <div className='w-full h-full'>
-            <img src={image} className='w-full h-full object-cover object-center' />
+        <div className='w-full h-full overflow-hidden'>
+            <img
+            data-scroll
+            data-scroll-speed="-1" 
+            src={image} className='w-full h-full object-cover object-center' />
         </div>
         <div className='absolute top-0 px-5 sm:px-32 text-white'>
         <TextTop texts={text1}/>
